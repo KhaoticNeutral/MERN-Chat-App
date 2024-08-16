@@ -1,7 +1,7 @@
 
 import { Navigate, Route, Routes } from "react-router-dom";
-import Home from "c:/Users/kikib/Desktop/Code/Chat-App/frontend/src/pages/home/Home";
-import Login from "c:/Users/kikib/Desktop/Code/Chat-App/frontend/src/pages/login/Login";
+import Home from ".home/pages/home/Home";
+import Login from ".login/pages/login/Login";
 import SignUp from "./pages/signup/SignUp";
 import { Toaster } from "react-hot-toast";
 import { useAuthContext } from "./context/AuthContext";
